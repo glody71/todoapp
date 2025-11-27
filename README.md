@@ -68,6 +68,18 @@ cd todoapp
 
 ```
 
+## API Documentation
+| Method | Endpoint          | Deskripsi                       | Request Body                                                         |
+| ------ | ----------------- | ------------------------------- | -------------------------------------------------------------------- |
+| GET    | `/api/todos`      | Mendapatkan semua todo          | N/A                                                                  |
+| POST   | `/api/todos`      | Membuat todo baru               | `{ title, description, category_id, priority, due_date }`            |
+| GET    | `/api/todos/:id`  | Mendapatkan todo berdasarkan ID | N/A                                                                  |
+| PUT    | `/api/todos/:id`  | Memperbarui todo                | `{ title, description, completed, category_id, priority, due_date }` |
+| DELETE | `/api/todos/:id`  | Menghapus todo                  | N/A                                                                  |
+| GET    | `/api/categories` | Mendapatkan semua kategori      | N/A                                                                  |
+| POST   | `/api/categories` | Membuat kategori baru           | `{ name }`                                                           |
+
+
 ## Database Design Questions
 ### 1.What database tables did you create and why?
 
