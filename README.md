@@ -14,7 +14,7 @@ TodoApp memungkinkan pengguna untuk:
 - Membuat, membaca, memperbarui, dan menghapus todo  
 - Menandai todo sebagai selesai atau belum selesai  
 - Mengelompokkan todo berdasarkan kategori  
-- Membuat dan mengelola kategori  
+- Membuat dan kategori baru
 - Menggunakan UI modern berbasis Ant Design  
 - Menampilkan data menggunakan tabel dengan pagination dan loading state  
 
